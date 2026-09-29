@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The 1890 Club · Oxford &amp; Cambridge Hockey Alumni</title>
+  <meta name="description" content="The 1890 Club brings together former players of Oxford and Cambridge University Hockey Clubs and supports the current university teams.">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1c1f5c;
+      --navy-deep: #12143d;
+      --pale: #a9d9d0;
+      --red: #b3262e;
+      --gold: #d8a731;
+      --paper: #fbfaf7;
+      --ink: #1f2233;
+      --muted: #5b5f73;
+      --line: #e3e1da;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    a { color: var(--navy); }
+
+    header {
+      background: var(--navy);
+      background-image: radial-gradient(ellipse at 50% 0%, #2a2e80 0%, var(--navy) 55%, var(--navy-deep) 100%);
+      color: #fff;
+      text-align: center;
+      padding: 64px 16px 72px;
+      border-bottom: 5px solid var(--pale);
+    }
+    header img { width: 150px; height: auto; filter: drop-shadow(0 8px 20px rgba(0,0,0,.35)); }
+    h1, h2 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; letter-spacing: .01em; }
+    header h1 { font-size: clamp(2.6rem, 7vw, 4rem); line-height: 1.05; margin-top: 24px; }
+    header p.sub { margin-top: 10px; font-size: 1.05rem; color: #cfd2f0; letter-spacing: .08em; text-transform: uppercase; font-size: .85rem; }
+    header p.est { margin-top: 18px; color: var(--pale); font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.2rem; font-style: italic; }
+
+    main { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+
+    .notice {
+      margin: -32px auto 0;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--red);
+      border-radius: 6px;
+      padding: 18px 22px;
+      box-shadow: 0 6px 24px rgba(28,31,92,.08);
+      position: relative;
+      font-size: .98rem;
+    }
+    .notice strong { color: var(--navy); }
+
+    section { padding: 48px 0 8px; }
+    section + section { border-top: 1px solid var(--line); margin-top: 40px; }
+    h2 { font-size: 2rem; color: var(--navy); margin-bottom: 14px; line-height: 1.2; }
+    p + p { margin-top: 14px; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 22px; }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 20px 22px;
+    }
+    .card h3 { font-size: 1rem; font-weight: 500; color: var(--navy); margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+    .card h3::before { content: ""; width: 10px; height: 10px; border-radius: 2px; background: var(--gold); transform: rotate(45deg); flex: none; }
+    .card ul { padding-left: 18px; color: var(--muted); font-size: .95rem; }
+    .card li + li { margin-top: 6px; }
+
+    .contact {
+      background: var(--navy);
+      color: #fff;
+      border-radius: 10px;
+      padding: 30px 28px;
+      margin-top: 8px;
+    }
+    .contact h2 { color: #fff; }
+    .contact p { color: #d9dbf2; }
+    .contact a.btn {
+      display: inline-block;
+      margin-top: 18px;
+      background: var(--pale);
+      color: var(--navy-deep);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 11px 20px;
+      border-radius: 6px;
+    }
+    .contact a.btn:hover { background: #fff; }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: .85rem;
+      padding: 56px 16px 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="crest.png" alt="The 1890 Club crest: crossed hockey sticks between a crown and a lion" width="150" height="174">
+  <h1>The 1890 Club</h1>
+  <p class="sub">Oxford &amp; Cambridge University Hockey Alumni</p>
+  <p class="est">Established 2000</p>
+</header>
+
+<main>
+
+  <div class="notice">
+    <strong>Our website is being refreshed.</strong> This is a temporary page while we update our details. News of fixtures and events will follow. In the meantime, please get in touch using the details below.
+  </div>
+
+  <section id="about">
+    <h2>About the club</h2>
+    <p>The 1890 Club was founded in 2000 to build stronger links between former players and the current hockey clubs at Oxford and Cambridge. It supports the social side of the university clubs and gives members a way to stay in touch.</p>
+    <p>Members are invited to hockey matches and social events with old team-mates, and former opposition. They also hear news of the current university teams. Their subscriptions provide valuable support for OUHC and CUHC, particularly around the Varsity Match.</p>
+  </section>
+
+  <section id="activities">
+    <h2>What we do</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Hockey</h3>
+        <ul>
+          <li>1890 Oxford v Cambridge matches on Varsity day</li>
+          <li>Men’s, women’s and mixed alumni fixtures</li>
+          <li>Games against the current Blues and invited sides</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Social</h3>
+        <ul>
+          <li>Pre-Varsity drinks</li>
+          <li>The 1890 Dinner, held every five years</li>
+          <li>Regular newsletters for members</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Supporting the clubs</h3>
+        <ul>
+          <li>Helping OUHC and CUHC stage the Varsity Match</li>
+          <li>Post-Varsity celebrations for current players</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Get in touch</h2>
+      <p>Former players who want to join, update their details or find out about upcoming fixtures should contact the club committee.</p>
+      <!-- TODO: replace with the club's current contact address before going live -->
+      <a class="btn" href="mailto:info@1890.co.uk?subject=1890%20Club">Email the 1890 Club</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  &copy; The 1890 Club · Oxford &amp; Cambridge University Hockey Alumni
+</footer>
+
+</body>
+</html>
